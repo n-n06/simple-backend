@@ -1,0 +1,9 @@
+
+sudo: required
+services:
+  - docker
+
+srcipt:
+  - docker build -t nursultanzhantuar/simple-backend-tested .
+  - docker images nursultanzhantuar/simple-backend-tested
+  
